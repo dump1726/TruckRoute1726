@@ -5,19 +5,16 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
-  <!-- Google Fonts for Features heading -->
   <link href="https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap" rel="stylesheet">
   <style>
-    body {
-      margin: 0;
-    }
+    html, body { height: 100%; margin: 0; padding: 0; }
     .features-title {
       font-family: 'Roboto Slab', serif;
       font-size: 2.5em;
-      margin: 20px;
+      margin: 20px 0 0 0;
       text-align: center;
     }
-    #map { height: 100vh; width: 100%; }
+    #map { height: calc(100vh - 60px); width: 100%; }
   </style>
 </head>
 <body>

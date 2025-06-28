@@ -24,4 +24,9 @@
   <script src="routes.js"></script>
 </body>
 </html>
+var map = L.map('map').setView([37.8, -96], 5);
+L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+  maxZoom: 18,
+  attribution: '© OpenStreetMap contributors'
+}).addTo(map);
 

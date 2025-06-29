@@ -62,3 +62,4 @@ L.geoJSON(restrictedBridges, {
     layer.bindPopup(feature.properties.name);
   }
 }).addTo(map);
+
